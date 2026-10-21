@@ -1,0 +1,15 @@
+INSTALLATION (Experience Builder Developer Edition)
+
+1. Copier le dossier "signalement" dans :
+   ArcGISExperienceBuilder/client/your-extensions/widgets/
+
+2. Dans manifest.json, remplacer "exbVersion" par votre version
+   (même valeur que dans le manifest.json d'un widget existant,
+   ou dans client/package.json).
+
+3. Redémarrer le client (dossier client) :  npm start
+
+4. Dans le builder : ajouter le widget "Signalement terrain".
+   - Recommandé : le placer dans un "Widget Controller" -> un seul bouton.
+   - Mise en forme : choisir la carte, puis ajouter les types de signalement
+     (texte du bouton, emoji, couleur, couche liée).
